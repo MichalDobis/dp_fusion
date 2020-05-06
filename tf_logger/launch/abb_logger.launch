@@ -1,0 +1,12 @@
+
+<launch>
+    <node name="mapper" type="tf_logger_sim" pkg="tf_logger" output="screen">
+        <param name="baseLinkFrame" value="tool0"/>
+        <param name="odomFrame" value="base_link"/>
+        <param name="kinectFrame" value="kinect_frame"/>
+        <param name="worldFrame" value="base_link"/>
+        <param name="outputFileName" value="CalibrationTransformation.txt"/>
+        <!-- Set this to true if you want to use input points hint:check example inputs directory -->
+    </node>
+</launch>
+

@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find abb_camera_simulation)/launch/abb_gazebo.launch" />
+    <include file="$(find abb_camera_calib_moveit_config)/launch/demo.launch" />
+    <!--include file="$(find abb_camera_simulation)/launch/chessboard.launch" /-->
+</launch>

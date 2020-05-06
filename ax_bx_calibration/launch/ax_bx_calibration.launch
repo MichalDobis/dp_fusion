@@ -1,0 +1,11 @@
+<launch>
+    <node name="ax_bx_calibration" type="calibration_node" pkg="ax_bx_calibration" output="screen" required="true">
+
+        <param name="input_file_path" value="$(find ax_bx_calibration)/inputs_examples/CalibrationTransformationPoints.txt"/>
+        <param name="output_file_path" value="$(find ax_bx_calibration)/outputs/CalibrationOutput.txt"/>
+        <param name="use_points" value="true"/> <!-- Set this to false if you want to use as input Eigen::Matrix4d -->
+                                                <!-- Set this to true if you want to use input points hint:check example inputs directory -->
+        <param name="use_photoneo_scaner" value="true"/>
+
+    </node>
+</launch>

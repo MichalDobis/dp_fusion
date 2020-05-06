@@ -1,0 +1,26 @@
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="map_to_scan1" args=" 1.2038 -0.900348 1.30516 0.433953 -0.0831157 -0.663468 0.603811  map link1 10" />
+    <node pkg="tf" type="static_transform_publisher" name="map_to_scan2" args=" 1.10376 -0.900277 1.30523
+0.433958 -0.0831518 -0.663458 0.603813  map link2 10" />
+    <node pkg="tf" type="static_transform_publisher" name="map_to_scan3" args=" 1.0038 -0.900251 1.30526
+0.43396 -0.0831491 -0.663441 0.60383  map link3 10" />
+    <node pkg="tf" type="static_transform_publisher" name="map_to_scan4" args=" 0.903811 -0.900256 1.30521
+0.433954 -0.0831344 -0.663447 0.603829  map link4 10" />
+    <node pkg="tf" type="static_transform_publisher" name="map_to_scan5" args=" 0.80379 -0.900279 1.30522
+0.433941 -0.0831441 -0.663448 0.603837  map link5 10" />
+    <node pkg="tf" type="static_transform_publisher" name="map_to_scan6" args=" 0.703791 -0.900273 1.30521
+0.433944 -0.0831375 -0.66345 0.603833  map link6 10" />
+    <node pkg="tf" type="static_transform_publisher" name="map_to_scan7" args=" 0.60381 -0.900265 1.30524
+0.433941 -0.0831447 -0.663446 0.603839  map link7 10" />
+    <node pkg="tf" type="static_transform_publisher" name="map_to_scan8" args=" 0.503788 -0.900281 1.30521
+0.43394 -0.0831439 -0.66346 0.603824 map link8 10" />
+
+    <!--<node pkg="tf" type="static_transform_publisher" name="map_to_tool1" args="  0.0823296 -1.19223 1.16981 -0.647126 0.757022 -0.00736328 0.089948    map tool1 10" />-->
+    <!--<node pkg="tf" type="static_transform_publisher" name="map_to_tool2" args="  -0.575397 -1.21294 1.22264 0.731209 0.655179 0.168966 0.0867377       map tool2 10" />-->
+    <!--<node pkg="tf" type="static_transform_publisher" name="map_to_tool3" args="  -0.0834632 -0.730339 1.05972 0.644586 0.73753 -0.13648 0.148095       map tool3 10" />-->
+    <!--<node pkg="tf" type="static_transform_publisher" name="map_to_tool4" args="  0.588451 -1.05886 0.905468 0.604349 0.728981 -0.253489 -0.197717      map tool4 10" />-->
+    <!--<node pkg="tf" type="static_transform_publisher" name="map_to_tool5" args="  0.101154 -1.55457 0.886803 0.608636 0.766367 0.0562748 -0.197679      map tool5 10" />-->
+    <!--<node pkg="tf" type="static_transform_publisher" name="map_to_tool6" args="  0.106532 -1.18993 1.01346 -0.432504 0.90123 0.0227468 0.0144185       map tool6 10" />-->
+    <!--<node pkg="tf" type="static_transform_publisher" name="map_to_tool7" args="  -0.244247 -1.51822 0.910661 -0.529183 0.807932 0.0748798 0.248202     map tool7 10" />-->
+    <!--<node pkg="tf" type="static_transform_publisher" name="map_to_tool8" args="  0.606314 -1.41708 0.910651 0.739821 0.607945 -0.0544285 -0.28303      map tool8 10" /-->
+</launch>
